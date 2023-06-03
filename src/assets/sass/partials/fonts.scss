@@ -9,28 +9,36 @@
 //900	Черный (Густой)Black (Heavy)
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url("../fonts/OpenSans-Regular.woff2") format('woff2'), url("../fonts/OpenSans-Regular.woff") format('woff');
+	font-family: "Averta";
+	src: url("../fonts/Averta-Regular.woff2") format("woff2"), url("../fonts/Averta-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-  src: url("../fonts/OpenSans-Bold.woff2") format('woff2'), url("../fonts/OpenSans-Bold.woff") format('woff');
-  font-weight: 700;
-  font-style: normal;
+	font-family: "Averta";
+	src: url("../fonts/Averta-Semibold.woff2") format("woff2"), url("../fonts/Averta-Semibold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
 }
 
-//@font-face {
-//	font-family: 'Work Sans Bold';
-//	src: url("../fonts/worksans-bold.ttf") format('ttf');
-//	font-weight: normal;
-//	font-style: normal;
-//}
-//@font-face {
-//	font-family: 'Franklink Gothik Book';
-//	src: url("../fonts/franklin-gothic-book.ttf") format('ttf');
-//	font-weight: normal;
-//	font-style: normal;
-//}
+@font-face {
+	font-family: "Averta";
+	src: url("../fonts/Averta-ExtraBold.woff2") format("woff2"), url("../fonts/Averta-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "DomaineDisp";
+	src: url("../fonts/DomaineDisp-Regular.woff2") format("woff2"), url("../fonts/DomaineDisp-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "DomaineDisp";
+	src: url("../fonts/DomaineDisp-Medium.woff2") format("woff2"), url("../fonts/DomaineDisp-Medium.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
