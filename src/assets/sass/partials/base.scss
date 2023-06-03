@@ -1,9 +1,22 @@
 body {
+  position: relative;
 	margin: 0;
 	padding: 0;
-  font-family: $font_2;
+  padding-bottom: 30000px;
+	font-family: $font_2;
 	font-size: 18px;
 	color: #000;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: green;
+    z-index: 100000;
+  }
 }
 
 * {
@@ -26,7 +39,14 @@ img {
 }
 
 ul {
-	@include reset-list;
+	list-style-type: none;
+	li {
+		list-style-type: none;
+	}
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 p {
@@ -40,7 +60,8 @@ p {
 
 .container {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1400px;
+	width: 100%;
 }
 
 input[type="submit"]:disabled {
